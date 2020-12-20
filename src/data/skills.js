@@ -1,10 +1,10 @@
 import htmlLogo from '../images/skills/html.svg'
 import cssLogo from '../images/skills/css-file.svg'
-import jsLogo from '../images/skills/js.svg'
+import jsLogo from '../images/skills/js-file.svg'
 import reactLogo from '../images/skills/react-fireb-logo.svg'
 
 
-export default [
+const data =  [
     {
         id:1,
         imgSrc: reactLogo,
@@ -25,10 +25,12 @@ export default [
         id:4,
         imgSrc: jsLogo,
         imgAlt: "JS"
-    },
-    {
-        id:5,
-        imgSrc: jsLogo,
-        imgAlt: "JS"
     }
+    // {
+    //     id:5,
+    //     imgSrc: jsLogo,
+    //     imgAlt: "JS"
+    // }
 ]
+
+export default data
