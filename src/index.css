@@ -106,8 +106,8 @@ header {
 }
 
 .main-container{
-  width: 95%;
-  max-width: 1200px;
+  width: 100%;
+  max-width: 1000px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -155,5 +155,10 @@ header {
 }
 
 .skill img{
+  max-width: 100%;
+}
+
+.projects{
+  background-color: #3494cc;
   max-width: 100%;
 }
