@@ -7,7 +7,7 @@ export const Header = () => {
         <header>
             <div class="contenedor">
                 <div class="textos">
-                    <img src={logo} className="header-img-logo"/>
+                    <img src={logo} className="header-img-logo" alt="Main Logo"/>
                     <h1>Martin Pino</h1>
                     <h2>Jr. Developer</h2>
                     <a class="boton" href="#iconos-contacto">Know me!</a>
