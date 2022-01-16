@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;0,600;0,700;1,400&display=swap");
 
-:root{
+:root {
   --primary-color: #fefefe;
   --btns-color: #3494cc;
   --btns-color-hover: #5bc0fa;
@@ -14,8 +14,8 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
-  background-image: linear-gradient(120deg, #2B3B5E,rgb(43, 34, 73));
+  font-family: "Raleway", sans-serif;
+  background-image: linear-gradient(120deg, #2b3b5e, rgb(43, 34, 73));
   scroll-behavior: smooth;
 }
 
@@ -26,7 +26,7 @@ header {
   width: 100%;
 }
 
-.header-img-logo{
+.header-img-logo {
   max-width: 100%;
 }
 
@@ -40,16 +40,14 @@ header {
   margin: auto;
 }
 
-@media (min-width: 768px){
-  .contenedor{
+@media (min-width: 768px) {
+  .contenedor {
     justify-content: space-around;
   }
 
-  .header-img-logo{
+  .header-img-logo {
     max-width: 30vw;
   }
-
-
 }
 
 .textos {
@@ -69,7 +67,6 @@ header {
   font-size: 45px;
   text-align: right;
 }
-
 
 .boton {
   margin: 30px 0;
@@ -93,19 +90,19 @@ header {
   border: none;
   border-radius: 50px;
   color: #153a58;
-  background-color: var( --btns-color-hover);
+  background-color: var(--btns-color-hover);
   transform: scale(1.1);
 }
-.boton:active{
+.boton:active {
   outline: none;
 }
 
-.btn-home{
-  border-radius: 20rem ;
+.btn-home {
+  border-radius: 20rem;
   padding: 1rem 4rem;
 }
 
-.main-container{
+.main-container {
   width: 100%;
   max-width: 1000px;
   min-height: 100vh;
@@ -123,42 +120,41 @@ header {
   align-items: center;
 }
 
-@media (min-width: 990px){
-  .main-container{
+@media (min-width: 990px) {
+  .main-container {
     flex-direction: row;
   }
-
-
   .skills-container {
-      flex-direction: row;
-      margin-bottom: 3rem;
-      flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
   }
 }
 
 .skill {
   text-align: center;
   color: #ffffff;
-  background-color: #4B4E94;
   margin: 2rem;
-  border-radius: 11rem;
+  padding: 0.8rem 0.5rem;
+  border-radius: 6rem;
   width: 11rem;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.61);
-  transition: var(--transition); 
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.31);
+  transition: var(--transition);
 }
 
-.skill:hover{
+.skill:hover {
   -webkit-box-shadow: 0px 0px 10px 0px rgb(52, 148, 204);
   -moz-box-shadow: 0px 0px 10px 0px rgb(72, 188, 255);
   box-shadow: 0px 0px 10px 0px rgb(72, 188, 255);
   transform: scale(1.05);
 }
 
-.skill img{
+.skill img {
   max-width: 100%;
+  max-height: 150px;
 }
 
-.projects{
+.projects {
   background-color: #3494cc;
   max-width: 100%;
 }
