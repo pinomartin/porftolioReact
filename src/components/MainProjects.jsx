@@ -1,6 +1,6 @@
 import React from "react";
-import projectsData from "../data/projects";
-import { Skill } from "./Skill";
+// import projectsData from "../data/projects";
+// import { Skill } from "./Skill";
 
 export const MainProjects = () => {
   return (
