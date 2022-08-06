@@ -3,6 +3,7 @@ import cssLogo from "../images/skills/css-file.svg";
 import jsLogo from "../images/skills/js-file.svg";
 import reactLogo from "../images/skills/react-fireb-logo.svg";
 import reactNativeLogo from "../images/skills/react-native-logo.png";
+import uxUiLogo from "../images/skills/uiux.svg";
 
 const data = [
   {
@@ -17,24 +18,24 @@ const data = [
   },
   {
     id: 3,
+    imgSrc: jsLogo,
+    imgAlt: "Typescript & JS",
+  },
+  {
+    id: 4,
     imgSrc: htmlLogo,
     imgAlt: "HTML",
   },
   {
-    id: 4,
+    id: 5,
     imgSrc: cssLogo,
     imgAlt: "CSS3",
   },
   {
-    id: 5,
-    imgSrc: jsLogo,
-    imgAlt: "JS",
+    id: 6,
+    imgSrc: uxUiLogo,
+    imgAlt: "UI / UX",
   },
-  // {
-  //     id:5,
-  //     imgSrc: jsLogo,
-  //     imgAlt: "JS"
-  // }
 ];
 
 export default data;

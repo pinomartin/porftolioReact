@@ -19,6 +19,37 @@ body {
   scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+  width: 1rem;
+  background-color: #241b38;
+}
+
+/* Estilos barra (thumb) de scroll */
+body::-webkit-scrollbar-thumb {
+  background: #4758cc;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:active {
+  background-color: #000000;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #5b70ff;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos track de scroll */
+body::-webkit-scrollbar-track {
+  background: #241b38;
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-track:hover,
+body::-webkit-scrollbar-track:active {
+  background: #1b1031;
+}
+
 header {
   background: #0f0c29;
   background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
